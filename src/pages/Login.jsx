@@ -1,8 +1,13 @@
+import LoginForm from "../components/InicioSesion/Loginform";
+import MainAuthLayout from "../layout/MainAuth";
+
 function paginainiciosesion(){
 
     return (
-        <h1>Hola mundo</h1>
-    )
-}
+        <MainAuthLayout>
+            <LoginForm/>
+        </MainAuthLayout>
+    );
+};
 
-export default paginainiciosesion
+export default paginainiciosesion;

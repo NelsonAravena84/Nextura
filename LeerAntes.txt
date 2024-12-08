@@ -1,0 +1,20 @@
+07/12/2024
+
+queda modificar el estilo de la parte del iniciar sesión. (se logro)
+
+que se hizo?
+
+- Se hizo la pagina de landing page 
+- Se realizo el react route 
+- Se utilizo react Props
+
+08/12/2024
+
+queda modificar toda la esctructura del layout con los componentes y pasarlo a la page de crearcuenta. 
+
+que se hizo? 
+
+- se logro crear la pagina de crear cuenta y iniciar sesión
+- se incorporo el termino de layout y {children}. 
+
+
