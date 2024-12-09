@@ -14,6 +14,8 @@ function Formularios(props) {
           className="bg-white-50 border border-white-300 text-white-900 text-sm rounded-lg focus:ring-white-500 focus:border-blue-500 block w-full p-2.5 dark:bg-transparent dark:border-gray-500 dark:placeholder-gray-400 dark:text-black"
           placeholder={props.placeholder}
         />
+
+        
       </div>
   );
 }

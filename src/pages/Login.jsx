@@ -4,7 +4,7 @@ import MainAuthLayout from "../layout/MainAuth";
 function paginainiciosesion(){
 
     return (
-        <MainAuthLayout>
+        <MainAuthLayout tittle = "Bienvenido de nuevo" mostrarmensaje={false} mostrarcrearcuenta={true}>
             <LoginForm/>
         </MainAuthLayout>
     );

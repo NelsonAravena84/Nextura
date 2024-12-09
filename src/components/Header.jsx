@@ -1,15 +1,15 @@
 function Header() {
   return (
     <header
-      className="bg-cover bg-center h-[450px] relative"
+      className="bg-cover bg-center h-[610px] relative"
       style={{ backgroundImage: "url('/agua.png')"
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-teal-300 opacity-40"></div>
+      <div className="absolute inset-0 bg-white opacity-60"></div>
 
       {/* Navbar */}
-      <nav className="flex justify-between items-center px-6 py-4 z-10 relative">
+      <nav className="flex justify-between items-center px-[320px] py-4 z-10 relative">
         {/* Logo */}
         <div className="flex items-center">
           <img src="/mano.png" alt="Nextura Logo" className="w-12 h-12" />
@@ -62,7 +62,7 @@ function Header() {
         </p>
         <a
           href="/Login"
-          className="bg-teal-300 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-md text-lg"
+          className="bg-cyan-300 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-md text-lg"
         >
           Comenzar!
         </a>

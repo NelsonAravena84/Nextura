@@ -1,5 +1,4 @@
 import Tarjetas from "./Tarjetas";
-
 function Main() {
     return (
       <main className="bg-gray-100 py-10">
@@ -15,6 +14,7 @@ function Main() {
             <Tarjetas titulo = "Gestión Economica" texto ="Controle su consumo eléctrico en tiempo real e identifique los aparatos que consumen más energía." imagen="dineroicono.png"/>
           </section>
         </div>
+
       </main>
     );
   };
